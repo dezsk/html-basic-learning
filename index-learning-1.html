@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dasar Pemrograman Web</title>
+    </head>
+    <body>
+        <!-- Judul dari halaman web -->
+        <h1>Ini adalah judul utama dari web</h1>
+        <!-- Paragraf penjelasan web -->
+        <p>Ini adalah penjelasan dari judul utama</p>
+        
+        <!-- Judul dari konten halaman web -->
+        <h2>Ini adalah sub judul</h2>
+        <!-- Paragraf penjelasan web -->
+        <p>Ini adalah penjelasan dari sub judul, atau bisa dikatakan sebagai isi kontennya</p>
+        <!-- Sub judul untuk keterangan konten halaman web -->
+        <h3>Ini adalah judul dari isi sub judul yang biasanya digunakan untuk rincian dari konten (h2)</h3>
+
+        <!-- Unordered list -->
+        <ul>
+            <li>Ini adalah unordered list acak 1</li>
+            <li>Ini adalah unordered list acak 2</li>
+            <li>Ini adalah unordered list acak 3</li>
+            <li>Ini adalah unordered list acak 4</li>
+        </ul>
+        
+        <!-- Ordered list -->
+        <ol>
+            <ol type="1">
+                <li>Ordered list acak untuk angka</li>
+            </ol>
+            <ol type="a"></ol>
+                <li>Ordered list acak untuk huruf kecil</li>
+            </ol>
+            <ol type="A"></ol>
+                <li>Ordered list acak untuk huruf besar</li>
+            </ol>
+            <ol type="i"></ol>
+                <li>Ordered list acak untuk romawi kecil</li>
+            </ol>
+            <ol type="I"></ol>
+                <li>Ordered list acak untuk romawi besar</li>
+            </ol>
+        </ol>
+
+        <!-- Sintaks untuk menampilkan gambar (src untuk direktori gambar, alt untuk pengganti jika gambar 
+         tidak bisa ditampilkan)
+         Tips untuk gambar, usahakan untuk mengatur tingginya saja, karena panjangnya nanti akan mengikuti-->
+        <img src="/assets/images/images-1-thorfinn.png" alt="Gambar 1-Thorfinn">
+
+        <!-- Sintaks untuk membuat long quotion (cite digunakan sebagai referensi saja, tidak akan mempengaruhi
+         kodingan dan tampilan web). -->
+        <blockquote cite="https://id.wikipedia.org/wiki/Situs_web">
+            <p>
+                Ini adalah paragraf yang dibuat untuk memberi penjelasan berupa Situs web (bahasa Inggris: website)
+                adalah sekumpulan halaman web yang saling berhubungan yang umumnya berada pada peladen yang sama 
+                berisikan kumpulan informasi yang disediakan secara perorangan, kelompok, atau organisasi.
+            </p>
+        </blockquote>
+
+        <!-- Sintaks untuk membuat Preformatted Text, yang biasa digunakan untuk menampilkan konten sesuai yang kita 
+         tulis pada text editor-->
+        <pre>
+            SAJAK PUTIH
+            
+            Bersandar pada tari warna pelangi
+            Kau depanku bertudung sutra senja
+            Di hitam matamu kembang mawar dan melati
+            Harum rambutmu mengalun bergelut senda
+
+            Sepi menyanyi, malam dalam mendoa tiba
+            Meriak muka air kolam jiwa
+            Dan dalam dadaku memerdu lagu
+            Menarik menari seluruh aku
+
+            Hidup dari hidupku, pintu terbuka
+            Selama matamu bagiku menengadah
+            Selama kau darah mengalir dari luka
+            Antara kita Mati datang tidak membelah...
+
+            Karya: Chairil Anwar
+        </pre>
+
+        <!-- Sintaks untuk membuat Figure, yang biasanya  digunakan untuk mempresentasikan konten tersendiri 
+          (self-contained content), seperti ilustrasi, diagram, foto, atau bisa juga sebuah baris kode. 
+          -->
+        <p>
+            Dicoding adalah sebuah perusahaan startup yang bertujuan mengembangkan ekosistem developer di
+            Indonesia. Berdiri sejak 5 Januari 2015, Dicoding memiliki platform pembelajaran elektronik di
+            laman Dicoding.com.
+        </p>
+        <figure>
+            <img
+                src="https://raw.githubusercontent.com/dicodingacademy/a123-webdasar-labs/099-shared-files/shared-media/g-dicoding-logo.png"
+                alt="g Dicoding Logo"
+                width="200px"
+            />
+            <figcaption>Dicoding</figcaption>
+        </figure>
+        <p>
+            Materi perdana yang menjadi magnet dari awal berdirinya Dicoding hingga kini adalah kelas Menjadi
+            Android Developer Expert. Kelas ini dikembangkan oleh Google Developer Expert in Android, Sidiq
+            Permana dan Head of Dicoding Academy, Ahmad Imaduddin. Seperti halnya kelas Picodiploma lain,
+            modul online-nya juga hadir dalam bentuk buku berjudul sama yang telah mendapatkan ijin dan ISBN.
+        </p>
+        <!-- Bisa juga digunakan untuk ini -->
+        <figure>
+            <pre>
+                SAJAK PUTIH
+          
+                Bersandar pada tari warna pelangi
+                Kau depanku bertudung sutra senja
+                Di hitam matamu kembang mawar dan melati
+                Harum rambutmu mengalun bergelut senda
+          
+                Sepi menyanyi, malam dalam mendoa tiba
+                Meriak muka air kolam jiwa
+                Dan dalam dadaku memerdu lagu
+                Menarik menari seluruh aku
+          
+                Hidup dari hidupku, pintu terbuka
+                Selama matamu bagiku menengadah
+                Selama kau darah mengalir dari luka
+                Antara kita Mati datang tidak membelah...
+            </pre>
+            <figcaption>Sajak Putih oleh Charil Anwar</figcaption>
+        </figure>
+
+        <!-- Anchor, elemen yang digunakan untuk membuat sebuah hyperlink ke halaman atau website lain, file, 
+         alamat email, atau URL lainnya -->
+        <ul>
+            <li><a href="https://example.com">Website</a></li>
+            <li><a href="mailto:info@example.com">Email</a></li>
+            <li><a href="tel:+62123456">Telepon</a></li>
+            <li><a href="#address">Alamat</a></li>
+            <li><a href="#judulKonten">Judul konten</a></li>
+        </ul>
+
+        <!-- Emphasize Text (digunakan sebagai penekanan dan mencetak miring), Important Text (digunakan untuk 
+         memberi penekanan pada teks dan mencetak tebal), dan Short Quotation (digunakan untuk memberi tanda kutipan
+         pada teks)-->
+        <p><em>Ini adalah emphasize text</em>, <strong>Ini adalah important Text</strong>, dan <q>Ini adalah Short Quotation</q></p>
+
+        <!-- Citation (digunakan untuk sebuah rujukan pada sebuah dokumen, contohnya sebuah buku, majalah, artikel, 
+         dan lainnya), Defining Terms (mendefinisikan sebuah istilah (term)), Subscript (tampak kecil, dengan posisi di bawah)
+         dan Superscript (tampak kecil, dengan posisi di atas), Highligted Text (menandai atau menyorot sebuah teks),
+         dan Line Break (digunakan untuk memberitahu browser untuk memberikan sebuah garis baru pada baris teks)-->
+
+        <p>
+            <!-- Citation -->
+            Informasi selengkapnya bisa Anda dapatkan di <cite><a href="https://dicoding.com">dicoding.com</a></cite><br>
+            <!-- Defining Terms -->
+            <dfn>Website</dfn> merupakan halaman yang menampilkan informasi melalui teks atau gambar. Website dapat 
+            diakses melalui internet dengan menggunakan browser <br>
+            <!--Subscript dan Superscript-->
+            Sukrosa merupakan suatu disakarida yang dibentuk dari monomer-monomernya yang berupa unit glukosa dan fruktosa,
+            dengan rumus molekul C<sub>12</sub>H<sub>22</sub>O<sub>11</sub> <br>
+            Salah satu persamaan paling umum dalam semua fisika adalah E=MC<sup>2</sup><br>
+            <!-- Highlight Text -->
+            Ini adalah periode perang saudara. <mark>Pesawat ruang angkasa pemberontak, menyerang dari pangkalan
+            tersembunyi</mark>, telah memenangkan kemenangan pertama mereka melawan Kekaisaran Galactic yang jahat.
+            Selama pertempuran.
+            <!-- Line Break -->
+            Dicoding Space,<br>
+            Jln. Batik Kumeli No. 50.<br>
+            Bandung.<br>
+            40123
+        </p>
+    </body>
+
+
+
+</html>
